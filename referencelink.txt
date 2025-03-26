@@ -1,0 +1,8 @@
+Java Setup link
+
+https://maven.apache.org/download.cgi
+
+https://git-scm.com/downloads/win
+
+https://adoptium.net/
+
