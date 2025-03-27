@@ -12,7 +12,7 @@ Cosmos DB Commands
 az cosmosdb create --name yourdbname --resource-group yourRGName --kind GlobalDocumentDB --locations regionName=yourregion
 
 #To create db
-az cosmosdb sql dataabse create --account-name yourdbname --resource-group yourRGName --name ProductDB
+az cosmosdb sql database create --account-name mycosmosdbjigar --resource-group cosmosdbjigar --name ProductDB
 
 #To create container under database
-az cosmosdb sql dataabse create --account-name yourdbname --resource-group yourRGName --database-name ProductDB --name Products --partition-key-path "/category"
+az cosmosdb sql database create --account-name yourdbname --resource-group yourRGName --database-name ProductDB --name Products --partition-key-path "/category"
