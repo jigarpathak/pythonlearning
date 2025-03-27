@@ -1,3 +1,6 @@
+https://learn.microsoft.com/en-us/users/me/achievements?redeem=NX82Q4&WT.mc_id=ilt_partner_webpage_wwl&ocid=5350459
+
+
 Java Setup link
 
 https://maven.apache.org/download.cgi
@@ -32,3 +35,10 @@ curl -X POST http://localhost:8080/products -H "Content-Type: application/json" 
 "category": "Electoronics",
 "price": 10000.00
 }
+
+<plugin>
+  <groupId>com.microsoft.azure</groupId>
+  <artifactId>azure-webapp-maven-plugin</artifactId>
+  <version>1.15.0</version>
+</plugin>
+mvn azure-webapp:deploy
