@@ -16,3 +16,14 @@ az cosmosdb sql database create --account-name mycosmosdbjigar --resource-group 
 
 #To create container under database
 az cosmosdb sql database create --account-name yourdbname --resource-group yourRGName --database-name ProductDB --name Products --partition-key-path "/category"
+
+#Maven command to create local project with dependancy
+mvn archetype:generate -DgroupId=com.example -DartifactId=ProductCatalogue -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+#Cosmos Depency for Pom file
+
+<dependency>
+  <groupId>com.azure</groupId>
+  <artifacId>azure-cosmos</artifacId>
+  <version>4.68.0</version>
+</dependency>
