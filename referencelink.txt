@@ -9,7 +9,7 @@ https://adoptium.net/
 Cosmos DB Commands
 
 #below command for service provisioning 
-az cosmosdb create --name yourdbname --resource-group yourRGName --kind GlobalDocumentDB --location yourregion
+az cosmosdb create --name yourdbname --resource-group yourRGName --kind GlobalDocumentDB --locations regionName=yourregion
 
 #To create db
 az cosmosdb sql dataabse create --account-name yourdbname --resource-group yourRGName --name ProductDB
