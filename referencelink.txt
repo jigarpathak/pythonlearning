@@ -20,10 +20,15 @@ az cosmosdb sql database create --account-name yourdbname --resource-group yourR
 #Maven command to create local project with dependancy
 mvn archetype:generate -DgroupId=com.example -DartifactId=ProductCatalogue -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-#Cosmos Depency for Pom file
+#To test the app
+List all products
 
-<dependency>
-  <groupId>com.azure</groupId>
-  <artifacId>azure-cosmos</artifacId>
-  <version>4.68.0</version>
-</dependency>
+curl -X GET http://localhost:8080/products
+
+Add the products
+curl -X POST http://localhost:8080/products -H "Content-Type: application/json" -d '{
+"id": "1",
+"name": "Laptop",
+"category": "Electoronics",
+"price": 10000.00
+}
