@@ -2,6 +2,10 @@
 https://learn.microsoft.com/en-us/users/me/achievements?redeem=NX82Q4&WT.mc_id=ilt_partner_webpage_wwl&ocid=5350459
 
 
+#Case Study Link
+https://aztrgstr.blob.core.windows.net/case-study/Web_App_Case_Study_Shared.pptx
+
+
 Java Setup link
 
 https://maven.apache.org/download.cgi
